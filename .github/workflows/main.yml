@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://github.com/tsubasa02363727/Tyysyzy872/raw/main/Downloads.bat" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://github.com/Tsu14-wq/avica/raw/main/.github/workflows/Downloads.bat" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
 
       - name: Show Website
